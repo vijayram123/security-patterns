@@ -1,1 +1,40 @@
+site_name: Security Patterns Library
+site_description: Internal Security Pattern Documentation
+site_url: https://your-internal-site/security-patterns
 
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Patterns:
+      - Overview: patterns/pattern-template.md
+      - Secure Logging: patterns/secure-logging.md
+      - Input Validation: patterns/input-validation.md
+  - Architecture:
+      - Threat Modeling: architecture/threat-modeling.md
+  - About:
+      - Purpose: about/purpose.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji
+
+plugins:
+  - search
+  - mkdocstrings
