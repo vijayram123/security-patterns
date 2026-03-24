@@ -1,6 +1,6 @@
 site_name: Security Patterns Library
 site_description: Internal Security Pattern Documentation
-site_url: https://your-internal-site/security-patterns
+site_url: https://vijayram123.github.io/security-patterns
 
 theme:
   name: material
